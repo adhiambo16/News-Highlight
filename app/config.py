@@ -24,4 +24,16 @@ class DevConfig(Config):
         Config: The parent configuration class with General configuration settings
     '''
 
-    DEBUG = True
+ DEBUG = True
+
+
+    class Config:
+
+    '''
+    General configuration parent class
+    '''
+    MOVIE_API_BASE_URL =https://newsapi.org/v2/top-headlines/everything?apiKey=58ffdf91c72b4fccb8d745405b739de3
+
+   
+
+
